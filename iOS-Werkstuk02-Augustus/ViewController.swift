@@ -7,14 +7,23 @@
 //
 
 import UIKit
+import MapKit
+import CoreLocation
+import CoreData
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,MKMapViewDelegate, CLLocationManagerDelegate {
+    
+    var SavedArray:[PolylineSaved] = []
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBOutlet weak var mapView: MKMapView!
+    
+    @IBOutlet weak var lblLastUpdated: UILabel!
+    var locationManager = CLLocationManager()
+    
+    @IBAction func btnRefresh(_ sender: Any) {
     }
-
+    
+    
 
 }
 

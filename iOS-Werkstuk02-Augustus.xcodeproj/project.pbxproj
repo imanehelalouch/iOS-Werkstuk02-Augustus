@@ -15,6 +15,7 @@
 		D9D924E8230492C6008D4064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D924E6230492C6008D4064 /* LaunchScreen.storyboard */; };
 		D9D924F3230492C6008D4064 /* iOS_Werkstuk02_AugustusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D924F2230492C6008D4064 /* iOS_Werkstuk02_AugustusTests.swift */; };
 		D9D924FE230492C6008D4064 /* iOS_Werkstuk02_AugustusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D924FD230492C6008D4064 /* iOS_Werkstuk02_AugustusUITests.swift */; };
+		D9D9250C230493C5008D4064 /* CustomPolyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D9250B230493C5008D4064 /* CustomPolyline.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D9D924F9230492C6008D4064 /* iOS-Werkstuk02-AugustusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Werkstuk02-AugustusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D924FD230492C6008D4064 /* iOS_Werkstuk02_AugustusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Werkstuk02_AugustusUITests.swift; sourceTree = "<group>"; };
 		D9D924FF230492C6008D4064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D9250B230493C5008D4064 /* CustomPolyline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPolyline.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		D9D924CE230492C5008D4064 = {
 			isa = PBXGroup;
 			children = (
+				D9D9250B230493C5008D4064 /* CustomPolyline.swift */,
 				D9D924D9230492C5008D4064 /* iOS-Werkstuk02-Augustus */,
 				D9D924F1230492C6008D4064 /* iOS-Werkstuk02-AugustusTests */,
 				D9D924FC230492C6008D4064 /* iOS-Werkstuk02-AugustusUITests */,
@@ -261,6 +264,7 @@
 			files = (
 				D9D924DD230492C5008D4064 /* ViewController.swift in Sources */,
 				D9D924DB230492C5008D4064 /* AppDelegate.swift in Sources */,
+				D9D9250C230493C5008D4064 /* CustomPolyline.swift in Sources */,
 				D9D924E3230492C5008D4064 /* iOS_Werkstuk02_Augustus.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
